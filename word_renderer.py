@@ -28,4 +28,5 @@ if __name__ == '__main__':
 	print renderer.create_rendered_word('H I J K L M N', "O", " ")
 	print renderer.create_rendered_word('O P Q R S T U', "O", " ")
 	print renderer.create_rendered_word('V W X Y Z', "O", " ")
+	print renderer.create_rendered_word('da da da', "O", " ")
 	print renderer.create_rendered_word('DANCE', ':boredparrot:', ':shuffleparrot:')
