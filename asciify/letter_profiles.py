@@ -1,3 +1,4 @@
+from __future__ import print_function
 import json
 
 LETTER_DICT = {
@@ -606,8 +607,8 @@ if __name__ == '__main__':
 	try:
 		assert json.dumps(A()) == json.dumps(LETTER_DICT['A']) 
 	except AssertionError:
-		print "json.dumps(A()):"
-		print json.dumps(A())
-		print "json.dumps(LETTER_DICT['A']):"
-		print json.dumps(LETTER_DICT['A']) 
+		print("json.dumps(A()):")
+		print(json.dumps(A()))
+		print("json.dumps(LETTER_DICT['A']):")
+		print(json.dumps(LETTER_DICT['A'])) 
 

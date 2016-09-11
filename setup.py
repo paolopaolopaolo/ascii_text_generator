@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="asciify",
     packages=find_packages(),
-    version="0.0.3",
+    version="0.0.4",
     description="Fun little project",
     long_description="",
     url="https://github.com/paolopaolopaolo/ascii_text_generator/",
@@ -23,6 +23,6 @@ setup(
         ]
     },
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 3 - Alpha"
     ]
 )
