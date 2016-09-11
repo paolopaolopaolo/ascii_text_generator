@@ -1,3 +1,5 @@
+from __future__ import print_function
+from __future__ import absolute_import
 from letter_profiles import Letter
 
 SPACE_CHARACTER = Letter(' ')()
@@ -21,4 +23,4 @@ class Word:
 
 if __name__ == '__main__':
 	w = Word('HELLO')
-	print w.get_word()
+	print(w.get_word())
